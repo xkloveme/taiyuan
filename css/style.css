@@ -1,0 +1,51 @@
+body{
+	font-family: "microsoft yahei";
+}
+/*导航*/
+.navbar{
+	min-height: 30px; 
+}
+
+.navbar-default {
+    background: #fff;
+    border-color: #fff;
+    
+         
+}
+#Home .alert {
+	
+	color: #d9534f;
+	
+}
+
+#user .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+	border-top: 0px ;
+}
+.panel{
+	margin-top: 15px;
+}
+.change{
+	color: #4A7288;
+}
+/*进度条*/
+.progress {
+    margin-bottom: 15px;
+}
+
+/*头像*/
+.wh64{
+    width: 64px;
+    height: 64px;
+    border-radius:50% ;
+}
+/*边距*/
+.mar_t15{
+    margin-top: 15px;
+}
+
+/*footer*/
+footer{
+    font-weight: 400;
+    text-align: center;
+    padding:20px ;
+}

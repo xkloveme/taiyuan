@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1 , user-scalable=no">
+		<title>第一题</title>
+		<link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/zoom.css" />
+		<!--<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+		<link rel="stylesheet" href="css/style.css" />
+
+	</head>
+
+	<body>
+		<!--导航-->
+		<header>
+			<nav class="navbar navbar-default navbar-static-top">
+				<div class="container">
+					<div class="navbar-header">
+						<button class="navbar-toggle navbar" data-toggle="collapse" data-target="#navbarContent">
+						<span class="icon-bar" ></span>
+						<span class="icon-bar" ></span>
+						<span class="icon-bar" ></span>
+					    </button>
+					</div>
+
+					<div class="collapse navbar-collapse" id="navbarContent">
+
+						<ul class="nav navbar-nav center-block">
+
+							<li >
+&nbsp;
+								<img src="img/b.png" class="img-responsive img-circle " alt="Responsive image"data-action="zoom"/>
+							</li>
+							<li>
+
+								<a href="#" style="color: #4A7288;">
+									<h1>张三</h1>
+									<p><b>zhangsan</b></p>
+								</a>
+							</li>
+
+							<li>
+								<a href="#">
+									<h2 class="text-center"><span class="glyphicon glyphicon-lock"></span></h2>
+									<p>在职状态</p>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<h2><span class="glyphicon glyphicon-option-horizontal"></span></h2>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<h2 class="text-center"><span class="glyphicon glyphicon-heart"></span></h2>
+									<p>婚姻状况</p>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<h2><span class="glyphicon glyphicon-option-horizontal"></span></h2>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<h2 class="text-center"><span class="glyphicon glyphicon-plane"></span></h2>
+									<p>出国情况</p>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<h2><span class="glyphicon glyphicon-option-horizontal"></span></h2>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<h2 class="text-center"><span class="glyphicon glyphicon-list-alt"></span></h2>
+									<p>重大事项</p>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<h2><span class="glyphicon glyphicon-option-horizontal"></span></h2>
+								</a>
+							</li>
+						</ul>
+						<div class="nav navbar-nav navbar-right">
+							<p class="text-right change " >入党时间|</br>2017-02-25</p>
+							
+							<p class="text-right change " ">风险系数|</br>15%</p>
+							
+							
+							<a  data-target="#mymodel" data-toggle="modal"><p class="text-right" style="color: red;text-decoration: none;">资料完度|</br>85%</p></a>
+						</div>
+					</div>
+				</div>
+				
+			</nav>
+		</header>
+		<!--导航-->
+		<div class="container">
+			<div class="col-md-offset-1">
+			</div>
+			<div class="col-md-2">
+				<ul class="list-group nav nav-tabs nav-pills nav-stacked tabnav ">
+					<li class="active">
+
+						<a href="#user" class="list-group-item" data-toggle="tab">
+							<span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;<b>1</b>
+						</a>
+					</li>
+					<li>
+						<a href="#find" class="list-group-item " data-toggle="tab"><span class="glyphicon glyphicon-search"></span>&nbsp;&nbsp;<b>2</b></a>
+					</li>
+					<li>
+						<a href="http://jixiaokang.xyz"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;<b>3</b></a>
+					</li>
+
+				</ul>
+			</div>
+			<div class="col-md-9">
+				<div id="myTabContent" class="tab-content">
+					<div class="tab-pane fade in active" id="user">
+						 
+						 <table class="table table-striped">
+							<hr />
+							<tr><td></td>
+  	<td></td>
+  	<td></td>
+  	<td></td>
+  	<td></td>
+  	<td class="pull-right">基本信息</td></tr>
+  <tr>
+  	<td>性别：</td>
+  	<td class="change">男</td>
+  	<td>年龄：</td>
+  	<td class="change">32</td>
+  	<td>身份证号码：</td>
+  	<td class="change">310381198612014621</td>
+  	
+  </tr>
+  <tr>
+  	<td>政治面貌：</td>
+  	<td class="change">中共党员</td>
+  	<td>婚姻状况：</td>
+  	<td class="change">已婚</td>
+  	<td>手机：</td>
+  	<td class="change">13738888888</td>
+  </tr>
+  <tr>
+  	<td>职务职称：</td>
+  	<td class="change">工程项目经理</td>
+  	<td>证照保管情况：</td>
+  	<td class="change">单位人事部门</td>
+  
+  </tr>
+  <tr >
+  	<td colspan="2">证照持有情况：</td>
+  	<td colspan="4" class="change">护照（E00000000）港澳通信证（C00000000）台湾通行证（L00000000）</td>	
+  </tr>
+</table>
+	<table class="table table-striped">
+							<hr />
+							<tr><td></td>
+  	<td></td>
+  	<td></td>
+  	<td></td>
+  	<td></td>
+  	<td></td>
+  	<td></td>
+  	<td class="pull-right">岗位情况</td></tr>
+  <tr>
+  	<td>姓名：</td>
+  	<td colspan="2" class="change">张三</td>
+  	<td>姓名：</td>
+  	<td colspan="2" class="change">张三</td>
+  	<td>姓名：</td>
+  	<td colspan="2" class="change">张三</td>
+  	
+  </tr>
+  <tr>
+  	<td>姓名：</td>
+  	<td colspan="2" class="change">张三</td>
+  	<td>姓名：</td>
+  	<td colspan="2" class="change">张三</td>
+  	<td>姓名：</td>
+  	<td colspan="2" class="change">张三</td>
+  	
+  </tr>
+  <tr>
+  	<td>姓名：</td>
+  	<td colspan="2" class="change">张三</td>
+  	<td>姓名：</td>
+  	<td colspan="2" class="change">张三</td>
+  	<td>姓名：</td>
+  	<td colspan="2" class="change">张三</td>
+  	
+  </tr>
+  <tr>
+  	<td>姓名：</td>
+  	<td colspan="2" class="change">张三</td>
+  	
+  	
+  </tr>
+</table>
+<table class="table table-striped">
+							<hr />
+							<tr><td></td>
+  	<td class="pull-right">出境情况</td></tr>
+  <tr>
+  	<td class="change">1、2017-03-20  德国  因公出差面试基本信息</td>
+  </tr>
+  <tr>
+  	<td class="change">2、2017-03-20  德国  因公出差面试基本信息</td>
+  	<td class="change"><strong class="pull-right">|</strong></td>
+  </tr>
+ 
+</table>
+<table class="table table-striped">
+							<hr />
+							<tr><td></td>
+  	<td class="pull-right">培训情况</td></tr>
+  <tr>
+  	<td class="change">1、2016-08-20  内容:关于进一步完善措施项目规定</td>
+  </tr>
+  <tr>
+  	<td class="change">2、2016-08-20  内容:关于进一步完善措施项目规定</td>
+  	<td style="color: #4A7288;"><strong class="pull-right">|</strong></td>
+  </tr>
+ 
+</table>
+<table class="table table-striped">
+							<hr />
+							<tr><td></td>
+  	<td class="pull-right">配偶情况</td></tr>
+  <tr>
+  	<td class="change">1、2016-08-20  内容:关于进一步完善措施项目规定</td>
+  </tr>
+  <tr>
+  	<td class="change">2、2016-08-20  内容:关于进一步完善措施项目规定</td>
+  	<td style="color: #4A7288;"><strong class="pull-right">|</strong></td>
+  </tr>
+ 
+</table>
+<table class="table table-striped">
+							<hr />
+							<tr><td></td>
+  	<td class="pull-right">重大事项报告</td></tr>
+  <tr>
+  	<td class="change">1、2016-08-20  内容:关于进一步完善措施项目规定</td>
+  </tr>
+  <tr>
+  	<td class="change">2、2016-08-20  内容:关于进一步完善措施项目规定</td>
+  	<td style="color: #4A7288;"><strong class="pull-right">|</strong></td>
+  </tr>
+ 
+</table>
+					
+					
+					
+					
+					</div>
+					<div class="tab-pane fade" id="find">
+						<div class="table-responsive">
+							<table class="table ">
+								<!-- On rows -->
+								<tr class="">
+									<td class="active ">...</td>
+									<td class="success">...</td>
+									<td class="warning">...</td>
+									<td class="danger">...</td>
+									<td class="info">...</td>
+									<td class="active">...</td>
+									<td class="success">...</td>
+									<td class="warning">...</td>
+								</tr>
+								<tr class="">
+									<td class="active">...</td>
+									<td class="success">...</td>
+									<td class="warning">...</td>
+									<td class="danger">...</td>
+									<td class="info">...</td>
+									<td class="active">...</td>
+									<td class="success">...</td>
+									<td class="warning">...</td>
+								</tr>
+								<tr class="">
+									<td class="active">...</td>
+									<td class="success">...</td>
+									<td class="warning">...</td>
+									<td class="danger">...</td>
+									<td class="info">...</td>
+									<td class="active">...</td>
+									<td class="success">...</td>
+									<td class="warning">...</td>
+								</tr>
+								<tr class="">
+									<td class="active">...</td>
+									<td class="success">...</td>
+									<td class="warning">...</td>
+									<td class="danger">...</td>
+									<td class="info">...</td>
+									<td class="active">...</td>
+									<td class="success">...</td>
+									<td class="warning">...</td>
+								</tr>
+								<tr class="">
+									<td class="active">...</td>
+									<td class="success">...</td>
+									<td class="warning">...</td>
+									<td class="danger">...</td>
+									<td class="info">...</td>
+									<td class="active">...</td>
+									<td class="success">...</td>
+									<td class="warning">...</td>
+								</tr>
+								<tr class="">
+									<td class="active">...</td>
+									<td class="success">...</td>
+									<td class="warning">...</td>
+									<td class="danger">...</td>
+									<td class="info">...</td>
+									<td class="active">...</td>
+									<td class="success">...</td>
+									<td class="warning">...</td>
+								</tr>
+								<tr class="">
+									<td class="active">...</td>
+									<td class="success">...</td>
+									<td class="warning">...</td>
+									<td class="danger">...</td>
+									<td class="info">...</td>
+									<td class="active">...</td>
+									<td class="success">...</td>
+									<td class="warning">...</td>
+								</tr>
+								<tr class="">
+									<td class="active">...</td>
+									<td class="success">...</td>
+									<td class="warning">...</td>
+									<td class="danger">...</td>
+									<td class="info">...</td>
+									<td class="active">...</td>
+									<td class="success">...</td>
+									<td class="warning">...</td>
+								</tr>
+								<tr class="">
+									<td class="active">...</td>
+									<td class="success">...</td>
+									<td class="warning">...</td>
+									<td class="danger">...</td>
+									<td class="info">...</td>
+									<td class="active">...</td>
+									<td class="success">...</td>
+									<td class="warning">...</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+
+				<div id="mymodel" class="modal" data-backdrop="static" data-show="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button class="close" data-dismiss="modal">&times;</button>
+								<h3><span class="glyphicon glyphicon-list-alt"></span> 分页显示列表</h3>
+							</div>
+							<div class="modal-body">
+
+								<div id="test">
+							<table class="table table-striped" data-toggle="table">
+								<tr>
+									<th>ID</th>
+									<th>用户名</th>
+									<th>邮箱</th>
+									<th>操作</th>
+								</tr>
+								<tr>
+									<td>1</td>
+									<td>张三</td>
+									<td>123456@163.com</td>
+									<td>
+										<div class="btn-group">
+											<button class="btn btn-info  dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+    操作<span class="caret"></span>
+  </button>
+											<ul class="dropdown-menu" role="menu">
+												<li>
+													<a href="#">编辑</a>
+												</li>
+												<li>
+													<a href="#">删除</a>
+												</li>
+												<li>
+													<a href="#">锁定</a>
+												</li>
+												<li>
+													<a href="#">修改密码</a>
+												</li>
+											</ul>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>1</td>
+									<td>张三</td>
+									<td>123456@163.com</td>
+									<td>
+										<div class="btn-group">
+											<button class="btn btn-info  dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+    操作<span class="caret"></span>
+  </button>
+											<ul class="dropdown-menu" role="menu">
+												<li>
+													<a href="#">编辑</a>
+												</li>
+												<li>
+													<a href="#">删除</a>
+												</li>
+												<li>
+													<a href="#">锁定</a>
+												</li>
+												<li>
+													<a href="#">修改密码</a>
+												</li>
+											</ul>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>1</td>
+									<td>张三</td>
+									<td>123456@163.com</td>
+									<td>
+										<div class="btn-group">
+											<button class="btn btn-info  dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+    操作<span class="caret"></span>
+  </button>
+											<ul class="dropdown-menu" role="menu">
+												<li>
+													<a href="#">编辑</a>
+												</li>
+												<li>
+													<a href="#">删除</a>
+												</li>
+												<li>
+													<a href="#">锁定</a>
+												</li>
+												<li>
+													<a href="#">修改密码</a>
+												</li>
+											</ul>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>1</td>
+									<td>张三</td>
+									<td>123456@163.com</td>
+									<td>
+										<div class="btn-group">
+											<button class="btn btn-info  dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+    操作<span class="caret"></span>
+  </button>
+											<ul class="dropdown-menu" role="menu">
+												<li>
+													<a href="#">编辑</a>
+												</li>
+												<li>
+													<a href="#">删除</a>
+												</li>
+												<li>
+													<a href="#">锁定</a>
+												</li>
+												<li>
+													<a href="#">修改密码</a>
+												</li>
+											</ul>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>1</td>
+									<td>张三</td>
+									<td>123456@163.com</td>
+									<td>
+										<div class="btn-group">
+											<button class="btn btn-info  dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+    操作<span class="caret"></span>
+  </button>
+											<ul class="dropdown-menu" role="menu">
+												<li>
+													<a href="#">编辑</a>
+												</li>
+												<li>
+													<a href="#">删除</a>
+												</li>
+												<li>
+													<a href="#">锁定</a>
+												</li>
+												<li>
+													<a href="#">修改密码</a>
+												</li>
+											</ul>
+										</div>
+									</td>
+								</tr>
+							</table>
+						</div>
+						<div id="pagination" class="text-right">
+							<ul class="pagination pagination-lg ">
+								<li>
+									<a href="#">&laquo;</a>
+								</li>
+								<li>
+									<a href="#">1</a>
+								</li>
+								<li>
+									<a href="#">2</a>
+								</li>
+								<li>
+									<a href="#">3</a>
+								</li>
+								<li>
+									<a href="#">4</a>
+								</li>
+								<li>
+									<a href="#">5</a>
+								</li>
+								<li>
+									<a href="#">6</a>
+								</li>
+								<li>
+									<a href="#">&raquo;</a>
+								</li>
+							</ul>
+						</div>
+
+					</div>
+
+						</div>
+					</div>
+
+				</div>
+				<div id="mymode2" class="modal" data-backdrop="static" data-show="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							
+							
+<img src="img/b.png"/>
+								
+
+						</div>
+					</div>
+
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		<!--footer-->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<p>
+							&copy;Copyright © 2017-2026 www.jixiaokang.xyz 浙ICP备12345678号-1
+						</p>
+					</div>
+				</div>
+			</div>
+
+		</footer>
+		<!--footer-->
+
+		<script src="scripts/jquery.min.js"></script>
+		<script src="bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="scripts/Chart.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/zoom.js" type="text/javascript" charset="utf-8"></script>
+		<script src="scripts/script.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script language="javascript">   
+// 将单元格转化成文本框   
+function changeTotext(obj)   
+{   
+    var tdValue = obj.innerText;   
+    obj.innerText = "";   
+    var txt = document.createElement("input");   
+    txt.type = "text";   
+    txt.value = tdValue;   
+    txt.id = "_text_000000000_";   
+    txt.setAttribute("className","text");   
+    obj.appendChild(txt);   
+    txt.select();   
+}   
+ // 取消单元格中的文本框，并将文本框中的值赋给单元格   
+function cancel(obj)   
+{   
+    var txtValue = document.getElementById("_text_000000000_").value;   
+    obj.innerText = txtValue;   
+}   
+// 事件   
+document.ondblclick = function()   
+{   
+    if (event.srcElement.className.toLowerCase() == "change")   
+    {   
+        changeTotext(event.srcElement);   
+    }   
+       
+}   
+document.onmouseup = function()   
+{   
+    if (document.getElementById("_text_000000000_") && event.srcElement.id != "_text_000000000_")   
+    {   
+        var obj = document.getElementById("_text_000000000_").parentElement;   
+        cancel(obj);   
+    }   
+}   
+</script> 
+	</body>
+
+</html>
